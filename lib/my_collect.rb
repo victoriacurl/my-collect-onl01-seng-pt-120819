@@ -1,8 +1,7 @@
-
-
-def my_collect(empty_array)
+def my_collect(collects)
   i = 0
-  while i < array.length
+new_collection = []
+  while i < collects.length
    binding.pry
    yield(array[i])
    i += 1
